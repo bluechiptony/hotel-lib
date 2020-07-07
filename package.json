@@ -1,7 +1,7 @@
 {
-  "name": "$1",
+  "name": "hotel-lib",
   "version": "1.0.0",
-  "description": "Application library",
+  "description": "Hotel Application library",
   "main": "./lib/index.js",
   "typings": "./lib/index",
   "types": "./lib/index.d.ts",
@@ -17,7 +17,11 @@
     "postversion": "git push && git push --tags"
   },
   "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluechiptony/hotel-lib.git"
+  },
+  "author": "Anthony Egwu Jr",
   "license": "ISC",
   "files": [
     "lib/**/*"
