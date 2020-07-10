@@ -6,6 +6,7 @@ export interface Invoice {
   itemName: string;
   total: number;
   discount: number;
+  description?: string;
   invoiceItems?: InvoiceItem[];
 }
 
@@ -13,6 +14,7 @@ export interface InvoiceItem {
   invoiceCode: string;
   itemName: string;
   itemCode: string;
+  description?: string;
   unitPrice: number;
   quantity: number;
   discount?: number;
@@ -24,6 +26,7 @@ export interface Sale {
   invoiceCode?: string;
   saleDepartment?: string;
   itemName: string;
+  description?: string;
   total: number;
   discount: number;
   createdDate: Date;

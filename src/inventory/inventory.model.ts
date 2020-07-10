@@ -11,6 +11,7 @@ export interface SaleItem {
   itemDepartment: string;
   costPrice?: number;
   unitSellingPrice?: number;
+  description?: string;
   createdDate: Date;
   updatedDate: Date;
   createdBy?: string;
@@ -21,6 +22,7 @@ export interface ItemStock {
   id?: any;
   itemCode: string;
   quantity: number;
+  description?: string;
   createdDate: Date;
   updatedDate: Date;
   createdBy?: string;
