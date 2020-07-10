@@ -1,6 +1,6 @@
 {
   "name": "hotel-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hotel Application library",
   "main": "./lib/index.js",
   "typings": "./lib/index",
